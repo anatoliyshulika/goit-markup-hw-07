@@ -4,18 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./styles/styles.css" />
-    <title>GoIT Home Work 5</title>
+    <link rel="stylesheet" href="./dist/css/main.min.css" />
+    <title>GoIT Home Work 7</title>
   </head>
   <body>
     <!-- --------------------------------Header--------------------------------- -->
@@ -160,13 +150,13 @@
             </label>
             <label class="agreement-label">
               <input
-                class="agreement-label__native-checkbox visually-hidden"
+                class="native-checkbox visually-hidden"
                 type="checkbox"
                 name="agreement"
                 required
               />
               <span class="custom-checkbox">
-                <svg class="agreement-label__check" width="17" height="13">
+                <svg class="custom-checkbox__mark" width="17" height="13">
                   <use href="./images/svg/icons.svg#check"></use>
                 </svg>
               </span>
@@ -190,7 +180,6 @@
       <section class="section">
         <div class="container">
           <h2 class="visually-hidden">Наши особенности</h2>
-          <!-- <ul class="list features-list grid"> -->
           <ul class="features grid">
             <li class="grid__item">
               <div class="features__icon">
@@ -199,7 +188,7 @@
                 </svg>
               </div>
               <h3 class="titles features__titles">Внимание к деталям</h3>
-              <p class="features__desc">
+              <p>
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
@@ -211,7 +200,7 @@
                 </svg>
               </div>
               <h3 class="titles features__titles">Пунктуальность</h3>
-              <p class="features__desc">
+              <p>
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
@@ -223,7 +212,7 @@
                 </svg>
               </div>
               <h3 class="titles features__titles">Планирование</h3>
-              <p class="features__desc">
+              <p>
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
@@ -235,7 +224,7 @@
                 </svg>
               </div>
               <h3 class="titles features__titles">Современные технологии</h3>
-              <p class="features__desc">
+              <p>
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -297,17 +286,17 @@
           <h2 class="titles section-titles">Наша команда</h2>
           <ul class="staff grid">
             <li class="grid__item">
-              <div class="staff__card">
+              <div class="staff-card">
                 <!-- Игоря Демьяненко -->
                 <img
                   src="./images/main-page/igor-demyanenko.jpg"
                   width="270"
                   alt="Фото Игоря Демьяненко Product Designer"
                 />
-                <div class="staff__desc">
-                  <h3 class="staff__title">Игорь Демьяненко</h3>
-                  <p class="staff__major" lang="en">Product Designer</p>
-                  <ul class="staff__socials socials grid">
+                <div class="staff-card__desc">
+                  <h3 class="staff-card__title">Игорь Демьяненко</h3>
+                  <p class="staff-card__major" lang="en">Product Designer</p>
+                  <ul class="staff-card__socials socials grid">
                     <li>
                       <a
                         class="socials__link flex-center"
@@ -369,17 +358,17 @@
               </div>
             </li>
             <li class="grid__item">
-              <div class="staff__card">
+              <div class="staff-card">
                 <!-- Ольга Репина -->
                 <img
                   src="./images/main-page/olga-repina.jpg"
                   width="270"
                   alt="Фото Ольги Репиной Frontend Developer"
                 />
-                <div class="staff__desc">
-                  <h3 class="staff__title">Ольга Репина</h3>
-                  <p class="staff__major" lang="en">Frontend Developer</p>
-                  <ul class="staff__socials socials grid">
+                <div class="staff-card__desc">
+                  <h3 class="staff-card__title">Ольга Репина</h3>
+                  <p class="staff-card__major" lang="en">Frontend Developer</p>
+                  <ul class="staff-card__socials socials grid">
                     <li>
                       <a
                         class="socials__link flex-center"
@@ -441,17 +430,17 @@
               </div>
             </li>
             <li class="grid__item">
-              <div class="staff__card">
+              <div class="staff-card">
                 <!-- Николай Тарасов -->
                 <img
                   src="./images/main-page/nikolai-tarasov.jpg"
                   width="270"
                   alt="Фото Николая Тарасова Marketing"
                 />
-                <div class="staff__desc">
-                  <h3 class="staff__title">Николай Тарасов</h3>
-                  <p class="staff__major" lang="en">Marketing</p>
-                  <ul class="staff__socials socials grid">
+                <div class="staff-card__desc">
+                  <h3 class="staff-card__title">Николай Тарасов</h3>
+                  <p class="staff-card__major" lang="en">Marketing</p>
+                  <ul class="staff-card__socials socials grid">
                     <li>
                       <a
                         class="socials__link flex-center"
@@ -513,17 +502,17 @@
               </div>
             </li>
             <li class="grid__item">
-              <div class="staff__card">
+              <div class="staff-card">
                 <!-- Михаил Ермаков -->
                 <img
                   src="./images/main-page/mikhail-ermakov.jpg"
                   width="270"
                   alt="Фото Михаила Ермакова UI Designer"
                 />
-                <div class="staff__desc">
-                  <h3 class="staff__title">Михаил Ермаков</h3>
-                  <p class="staff__major" lang="en">UI Designer</p>
-                  <ul class="staff__socials socials grid">
+                <div class="staff-card__desc">
+                  <h3 class="staff-card__title">Михаил Ермаков</h3>
+                  <p class="staff-card__major" lang="en">UI Designer</p>
+                  <ul class="staff-card__socials socials grid">
                     <li>
                       <a
                         class="socials__link flex-center"
